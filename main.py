@@ -1,4 +1,5 @@
 import time
+
 name = input('Wassup dude, please tell me your name so i dont have to refer to you as "dude" ')
 time.sleep(1.5)
 nameconfirm = input(f'Just gonna confirm real quick, u sure you want your name to be {name}? ')
@@ -8,7 +9,7 @@ if nameconfirm == 'no':
     print('Time to start you awesome adventure!')
 elif nameconfirm == 'yes':
     time.sleep(1.5)
-    print('Time to start you poggers adventure!')
+    print('Time to start your adventure!')
 else:
     print('Well, that was not an answer, so i guess u gotta restart completely')
 print()
@@ -41,11 +42,19 @@ if floor == "Less Dark Cave":
         print("New Floor! The Pit")
         print()
 if floor == "Darker Cave":
-    print("Wow, a cave even darker than the last, you can barely see, but through the darkness you do see a lot of goblins staring right back at you")
-    f2darkercave = input("so do you want to fight or flight(run)")
-
-
-
-
-
+    print("Wow, a cave even darker than the last, you can barely see, but through the darkness you do see a lot of "
+          "goblins staring right back at you")
+    f2darkercave = input("so do you want to fight or run")
+    if f2darkercave == "fight":
+        print()
+        print("so, you go to cast your EpIC MaGIc and then you ReaLIsE ThaT YoU CaNt UsE MaGiC, and get mauled by "
+              "little goblins, and die")
+    elif f2darkercave == "run":
+        print()
+        print("you use your awesome loser skills from years of binge watching batman to use the "
+              "conveniently placed grapple hook that was 100% not put there on purpose, to flee the goblins")
+        print()
+        print("New Floor! The bottom of the barrel!")
+        print()
+        floor = "BOB"
 
