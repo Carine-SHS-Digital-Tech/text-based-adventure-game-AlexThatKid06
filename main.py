@@ -1,5 +1,4 @@
 import time
-import F2
 name = input('Wassup dude, please tell me your name so i dont have to refer to you as "dude" ')
 time.sleep(1.5)
 nameconfirm = input(f'Just gonna confirm real quick, u sure you want your name to be {name}? ')
@@ -40,6 +39,11 @@ if floor == "Less Dark Cave":
         floor = "The Pit"
         print()
         print("New Floor! The Pit")
+        print()
+if floor == "Darker Cave":
+    print("Wow, a cave even darker than the last, you can barely see, but through the darkness you do see a lot of goblins staring right back at you")
+    f2darkercave = input("so do you want to fight or flight(run)")
+
 
 
 
