@@ -41,7 +41,7 @@ if floor == "Less Dark Cave":
 if floor == "Darker Cave":
     print("Wow, a cave even darker than the last, you can barely see, but through the darkness you do see a lot of "
           "goblins staring right back at you")
-    f2darkercave = input("so do you want to fight or run")
+    f2darkercave = input("so do you want to fight or run? ")
     if f2darkercave == ("FIGHT".lower()):
         print()
         print("so, you go to cast your EpIC MaGIc and then you ReaLIsE ThaT YoU CaNt UsE MaGiC, and get mauled by "
@@ -68,4 +68,23 @@ if floor == "kinda bright cave":
         print("you tried to go back, but fell on the way down the tunnel and landed on a particularly sharp rock, and died ")
         print()
         floor = "U ded"
+if floor == "The Pit":
+    print("you see a massive, open hole in the ground which seems to have no end")
+    f3thepit = input("You can jump down and take a chance(a), or just stay there(b)")
+    if f3thepit == ("A".lower()):
+        print()
+        print("New Floor! the 7th circle of hell")
+        print()
+        print("A random old dude called sullivan approaches you and asks if you want to be his grandson")
+        floor = ("7thcircle")
+    elif f3thepit == ("B".lower()):
+        print()
+        print("you wait there until the day you die(of hunger)")
+        print("u ded")
+if floor == "7thcircle":
+    f47thcircle = input("do you want to be his grandson(a) or say no(b)")
+    if f47thcircle == "a":
+        print()
+        print('Ending reached! you became the chair-demon sullivans grandson!(btw this is an anime reference to "welcome to demon school Iruma-kun"')
+        print("this is just one of the potential endings")
 
