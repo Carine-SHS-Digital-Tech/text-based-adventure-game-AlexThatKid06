@@ -131,10 +131,10 @@ if floor == "thebarrelsbasement":
               f'world that started with a death march"(more anime)')
     elif f4thebarrelsbasement == ("B".lower()):
         print()
-        print("you log onto fortnite, and the computer immediately explodes directly into your face, like a claymore, "
-              "probably because it was a claymore, so it seems you failed the test, you chose wrong, you should have "
+        print("you log onto fortnite, and the computer immediately explodes directly into your face, like a claymore"
+              "(probably because it was a claymore) so it seems you failed the test, you chose wrong, you should have "
               "chose the other option, after all, fortnite = disgusting")
-        print('You died an immediate, painless death(wich is less than you deserve for playing fortnite in 2021), '
+        print('You died an immediate, painless death(which is less than you deserve for playing fortnite in 2021), '
               'due to having your head exploded by a claymore built into the pc, set to go off when fortnite is '
               'turned on')
         print("¯\_(ツ)_/¯")
