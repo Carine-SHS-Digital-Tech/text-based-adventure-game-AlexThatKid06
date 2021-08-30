@@ -1,8 +1,12 @@
-import time
-
 endings = 3
 name = input('Wassup dude, please tell me your name so i dont have to refer to you as "dude" ')
 nameconfirm = input(f'Just gonna confirm real quick, u sure you want your name to be {name}? ')
+if "Alex" in name:
+    name = input("No mentioning the ultimate koolkid- Alex-sama. Choose something else. ")
+if "alex" in name:
+    name = input("No mentioning the ultimate koolkid- Alex-sama. Choose something else. ")
+if "ALEX" in name:
+    name = input("No mentioning the ultimate koolkid- Alex-sama. Choose something else. ")
 if nameconfirm == ('NO'.lower()):
     name = input('Alright, what do you want to be called then?')
     print('Time to start you awesome adventure!')
@@ -83,7 +87,7 @@ if floor == "The Pit":
         print("New Floor! the 7th circle of hell")
         print()
         print("A random old dude called sullivan approaches you and asks if you want to be his grandson")
-        floor = ("7thcircle")
+        floor = "7thcircle"
     elif f3thepit == ("B".lower()):
         print()
         print("you wait there until the day you die(of hunger)")
@@ -156,5 +160,3 @@ if floor == "surface":
               "directly into your "
               "face, so, all in all, you died of stinkyness(i guess)")
         print("¯\_(ツ)_/¯")
-
-
