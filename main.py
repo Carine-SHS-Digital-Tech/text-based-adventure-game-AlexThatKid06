@@ -12,8 +12,6 @@ if nameconfirm == ('NO'.lower()):
     print('Time to start you awesome adventure!')
 elif nameconfirm == ('YES'.lower()):
     print('Time to start your adventure!')
-else:
-    print('Well, that was not an answer, so i guess u gotta restart completely')
 print()
 print("Quick note: only write your answers in lowercase")
 print()
@@ -160,3 +158,5 @@ if floor == "surface":
               "directly into your "
               "face, so, all in all, you died of stinkyness(i guess)")
         print("¯\_(ツ)_/¯")
+else:
+    print("restart lmao, thats not an answer hehe")
